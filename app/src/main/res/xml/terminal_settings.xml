@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Terminal Settings">
+
+        <promosys.com.testingnordicbluetooth5.SetTimerDialogPreference
+            android:layout="@layout/preference_layout"
+            android:key="timer_duration"
+            />
+
+        <!--
+        <ListPreference
+            android:defaultValue="3"
+            android:dialogTitle="Timer Duration"
+            android:entries="@array/pref_timer_duration"
+            android:entryValues="@array/pref_timer_duration_values"
+            android:key="timer_duration"
+            android:summary="Set timer duration during sending"
+            android:title="Timer Duration" />
+            -->
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="include_crc"
+            android:title="Includes CRC and Length" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

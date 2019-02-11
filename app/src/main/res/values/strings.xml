@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nordic Ble Terminal V1</string>
+    <string name="shared_preference">TestBle5</string>
+    <string name="saved_command_key">nordic_command</string>
+</resources>

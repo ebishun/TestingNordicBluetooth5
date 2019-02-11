@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nabilla.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_clear_terminal"
+        android:orderInCategory="100"
+        android:title="Clear Terminal"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_save_log"
+        android:orderInCategory="100"
+        android:title="Save Log"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_disconnect"
+        android:orderInCategory="100"
+        android:title="Disconnect"
+        app:showAsAction="never" />
+
+    <!--
+    <item
+        android:id="@+id/menu_search"
+        android:title="Search for asset name"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+        -->
+
+</menu>
